@@ -1,6 +1,6 @@
 import styles from './page.module.scss';
 
-const Home = () => {
+const Home = (): JSX.Element => {
 	return <main className={styles.main}>Home</main>;
 };
 
